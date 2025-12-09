@@ -1,0 +1,45 @@
+<p id="para">Welcome</p>
+<p>Berrywise Networks</p>
+<label>Name</label>
+<input id=name type="text" >
+<br>
+<input type="button" value="display" onclick="display()">
+ 
+<style>
+    html {
+        zoom: 90%;text-align:center;
+    }
+</style>
+<br>
+<br>
+<input type="button" value="Red" onclick="makeRed()">
+<input type="button" value="Blue" onclick="makeBlue()">
+<input type="button" value="Green" onclick="makeGreen()">
+
+<script>
+    function makeRed() {
+        let x = document.getElementById("para");
+        x.style.color = "red";
+        x.style.fontSize = "80px";
+        x.style.fontWeight = "bold";
+    }
+
+    function makeBlue() {
+        let x = document.getElementById("para");
+        x.style.color = "blue";
+        x.style.fontSize = "80px";
+        x.style.fontWeight = "bold";
+    }
+
+    function makeGreen() {
+        let x = document.getElementById("para");
+        x.style.color = "green";
+        x.style.fontSize = "80px";
+        x.style.fontWeight = "bold";
+}
+   function display() {
+        let y = document.getElementById("name");
+         alert(y.value)
+      
+    }
+</script>
