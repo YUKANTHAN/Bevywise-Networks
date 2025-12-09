@@ -1,0 +1,11 @@
+<h1>Favorite fruits </h1>
+<ol>
+<h2>Seasonal fruits</h2>
+<li>Apple</li>
+<li>Orange</li>
+<li>Mango</li>
+<h2>Non-Seasonal fruits</h2>
+<li>Banana</li>
+<li>Grapes</li>
+<li>Kiwi</li>
+</ol>
